@@ -3,7 +3,7 @@
 
 This repository contains a model that predicts the next 10-minute temperature values using IoT sensor data. The model is built with a 2-layer Long Short-Term Memory (LSTM) architecture.
 
-# Use Guide
+# User Guide
 Install Python, Jupyter Lab using Anaconda if you are using local system, and set colab ='local'. If you are using Google Colab use mode='colab.
 - **Temp_Predictor**: LSTM model with a single LSTM layer.
 - **Temp_Predictor_Low_LR**: Single LSTM layer model with a lower learning rate (0.001).

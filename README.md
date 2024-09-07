@@ -5,11 +5,11 @@ This repository contains a model that predicts the next 10-minute temperature va
 
 # Use Guide
 Install Python, Jupyter Lab using Anaconda if you are using local system, and set colab ='local'. If you are using Google Colab use mode='colab.
-Temp_Predictor--> 1 Layer LSTM Model
-Temp_Predictor_Low_LR--> Learning Rate =0.001
+- **Temp_Predictor**: LSTM model with a single LSTM layer.
+- **Temp_Predictor_Low_LR**: Single LSTM layer model with a lower learning rate (0.001).
+- **Temp_Predictor_2LSTMs**: LSTM model with 2 LSTM layers.
+- **Temp_Predictor_2LSTMs_Attention**: LSTM model with 2 LSTM layers, incorporating a self-attention mechanism.
 
-Temp_Predictor_2LSTMs--> 2 Layers LSTM Model
-Temp_Predictor_2LSTMs_Attension --> Uses Self Attension Layer
 ## Overview
 
 This project aims to predict future temperature values by leveraging historical data collected from IoT temperature sensors. The model utilizes an LSTM neural network, which excels at capturing temporal dependencies in time series data.

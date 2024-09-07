@@ -1,7 +1,15 @@
+
 # Temperature Prediction Using LSTM
 
 This repository contains a model that predicts the next 10-minute temperature values using IoT sensor data. The model is built with a 2-layer Long Short-Term Memory (LSTM) architecture.
 
+# Use Guide
+Install Python, Jupyter Lab using Anaconda if you are using local system, and set colab ='local'. If you are using Google Colab use mode='colab.
+Temp_Predictor--> 1 Layer LSTM Model
+Temp_Predictor_Low_LR--> Learning Rate =0.001
+
+Temp_Predictor_2LSTMs--> 2 Layers LSTM Model
+Temp_Predictor_2LSTMs_Attension --> Uses Self Attension Layer
 ## Overview
 
 This project aims to predict future temperature values by leveraging historical data collected from IoT temperature sensors. The model utilizes an LSTM neural network, which excels at capturing temporal dependencies in time series data.
